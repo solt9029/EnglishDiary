@@ -1,0 +1,7 @@
+<?php
+$db_user="root";
+$db_password="phpapptest";
+$dns_info="mysql:dbname=englishdiary;host=db;charset=utf8";
+
+
+?>

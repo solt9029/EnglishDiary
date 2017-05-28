@@ -1,0 +1,75 @@
+﻿html{
+	font-size:62.5%;
+}
+body{
+	background: #151515 url('../images/bg.png') no-repeat fixed left bottom;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+input, button, textarea, select {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.site-title-sub{
+	margin:100px 10px 30px;
+	letter-spacing: 1px;
+	font-size:2.2rem;
+}
+.site-title-sub::before, .site-title-sub::after{
+	content:'';
+	display: inline-block;
+	width:100px;
+	height:2px;
+	margin:0 30px;
+	background-color:#fff;
+	vertical-align:middle;
+}
+.site-title{
+	font-size:5rem;
+	margin:50px 10px 40px;
+}
+.button{
+	display: inline-block;
+	width:250px;
+	padding:20px;
+	border-radius:5px;
+	background-color:#afa58d;
+	color:#fff;
+	text-decoration:none;
+	letter-spacing:1px;
+	font-size:1.4rem;
+	margin:20px;
+}
+.button:hover{
+	opacity:0.9;
+}
+.button-showy{
+	background-color:#f1b400;
+}
+.textform{
+	border:0;
+	padding:15px;
+	font-size:1.3em;
+	font-family:Arial, sans-serif;
+	color:#aaa;
+	border:solid 1px #ccc;
+	margin:0 0 10px;
+	width:320px;
+	border-radius:5px;
+}
+.textform:focus{
+	border:solid 1px #EEA34A;
+}
+.textforms{
+	margin-bottom:30px;
+}
